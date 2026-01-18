@@ -17,10 +17,69 @@
                             <?php } ?>
                             <?php echo wp_kses_post( monolit_global_var('footer_content') );?>
 
-                            
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <!-- Footer logo --> 
+                                    <div class="footer-item footer-logo">
+                                        <a href="https://icolaw.wpengine.com/" class="ajax"><img src="https://icolaw.wpengine.com/wp-content/uploads/2023/02/logo-fancy-v3.png" alt="footer logo" style="height:50px"></a>
+                                        <p>Packaged SEC compliance and transactional solutions in connection with blockchain technology companies launching compliant Security Token and Platform Token integrations and financings. </p>
+                                    </div>
+                                    <!-- Footer logo end --> 
+                                </div>
+                                <!-- Footer info --> 
+                                <div class="col-md-2">
+                                    <div class="footer-item">
+                                        <h4 class="text-link">Call</h4>
+                                        <ul>
+                                            <li><a href="tel:13104352830">+1 (310) 435-2830</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Footer info end--> 
+                                <!-- Footer info --> 
+                                <div class="col-md-2">
+                                    <div class="footer-item">
+                                        <h4 class="text-link">Email</h4>
+                                        <ul>
+                                            <li><a href="mailto:eorlando@eolegal.com">eorlando@eolegal.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Footer info-->
+                                <!-- Footer info end--> 
+                                <div class="col-md-2">
+                                    <div class="footer-item">
+                                        <h4 class="text-link">HQ</h4>
+                                        <ul>
+                                            <li><span>280 South Beverly Drive<br />Suite 505<br />Beverly Hills, CA  90212</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="footer-item">
+                                        <h4 class="text-link">Satellite</h4>
+                                        <ul>
+                                            <li><span>Avenida Escazu, Suite 141<br />Prospero Fernandez Hwy<br />San Jose, Costa Rica</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Footer info end--> 
+                                </div>
+                                <!-- Footer copyright -->
+                                <div class="row">
+                                <div class="col-md-6"></div>
+                                <div class="col-md-6">
+                                    <div class="footer-wrap">
+                                        <span class="copyright">  © ICOLaw.net 2023. All rights reserved.  
+                                        </span>
+                                        <span class="to-top">To Top</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Footer copyright end -->				
 
 
-                            
                         </div>
                         <!--  container  end --> 
                         <?php if( monolit_global_var('show_constellation') ) :?>
