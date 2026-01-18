@@ -1,0 +1,89 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">monolit_timeline</custom-type>
+        <custom-type translate="1">monolit_service</custom-type>
+        <custom-type translate="1">monolit_member</custom-type>
+        <custom-type translate="1">cth_testimonial</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_cat</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="monolit_options">
+            <key name="logo_first">
+                <key name="url"/>
+                <key name="id"/>
+                <key name="height"/>
+                <key name="width"/>
+                <key name="thumbnail"/>
+            </key>
+            <key name="logo_size_width"/>
+            <key name="logo_size_height"/>
+            <key name="logo_text" />
+            <key name="slogan" />
+
+            
+            <key name="footer_content" />
+            <key name="folio_home_text" />
+            <key name="folio_home_text_intro" />
+            <key name="folio_header_image">
+                <key name="url"/>
+                <key name="id"/>
+                <key name="height"/>
+                <key name="width"/>
+                <key name="thumbnail"/>
+             </key>
+            
+            <key name="bgpasspost">
+                <key name="url"/>
+                <key name="id"/>
+                <key name="height"/>
+                <key name="width"/>
+                <key name="thumbnail"/>
+             </key>
+            <key name="passpost_intro" />
+            
+            <key name="member_home_text" />
+            <key name="member_home_text_intro" />
+            <key name="member_list_link" />
+            <key name="member_header_image">
+                <key name="url"/>
+                <key name="id"/>
+                <key name="height"/>
+                <key name="width"/>
+                <key name="thumbnail"/>
+             </key>
+            
+
+            <key name="blog_home_text"/>
+            <key name="blog_home_text_intro"/>
+            <key name="blog_list_link"/>
+            <key name="blog_header_image">
+                <key name="url"/>
+                <key name="id"/>
+                <key name="height"/>
+                <key name="width"/>
+                <key name="thumbnail"/>
+             </key>
+            
+            <key name="shop_header_image">
+                <key name="url"/>
+                <key name="id"/>
+                <key name="height"/>
+                <key name="width"/>
+                <key name="thumbnail"/>
+             </key>
+            
+            <key name="bg404">
+                <key name="url"/>
+                <key name="id"/>
+                <key name="height"/>
+                <key name="width"/>
+                <key name="thumbnail"/>
+            </key>
+            <key name="404_intro"/>
+            <key name="back_home_link"/>
+        </key>
+    </admin-texts>
+</wpml-config>

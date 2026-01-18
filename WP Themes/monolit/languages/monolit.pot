@@ -1,0 +1,2302 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Monolit - Creative Responsive Architecture Wordpress "
+"Theme\n"
+"POT-Creation-Date: 2020-08-11 05:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: CTHthemes <cththemes@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;_ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ../../\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: monolit"
+
+#: functions.php:58
+msgid "Primary Menu (Main Navigation)"
+msgstr ""
+
+#: functions.php:59
+msgid "One Page Menu (with Scrolling Effect)"
+msgstr ""
+
+#: functions.php:116
+msgctxt "WooCommerce thumbnail width"
+msgid "300"
+msgstr ""
+
+#: functions.php:117
+msgctxt "WooCommerce single image width"
+msgid "500"
+msgstr ""
+
+#: functions.php:179
+msgctxt "carousel slider width"
+msgid "374"
+msgstr ""
+
+#: functions.php:179
+msgctxt "carousel slider height"
+msgid "623"
+msgstr ""
+
+#: functions.php:180
+msgctxt "portfolio slider width"
+msgid "1183"
+msgstr ""
+
+#: functions.php:180
+msgctxt "portfolio slider height"
+msgid "763"
+msgstr ""
+
+#: functions.php:224
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:226
+msgid "Appears in the sidebar section of the site."
+msgstr ""
+
+#: functions.php:236
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:238
+msgid "Appears in the sidebar section of the page template."
+msgstr ""
+
+#: functions.php:248 includes/redux-sections/shop.php:48
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:250
+msgid "Appears in the sidebar section of shop pages."
+msgstr ""
+
+#: functions.php:260
+msgid "Member Sidebar"
+msgstr ""
+
+#: functions.php:262
+msgid "Appears in the sidebar section of team member pages"
+msgstr ""
+
+#: functions.php:274 includes/redux-sections/socials.php:5
+msgid "Social Share"
+msgstr ""
+
+#: functions.php:276
+msgid ""
+"Widget area for Share menu. To use this area you must leave Share Names "
+"field on Monolit Options &gt; Social Share Settings empty"
+msgstr ""
+
+#: functions.php:285
+msgid "Footer Columns Widget"
+msgstr ""
+
+#: functions.php:287
+msgid "Appears above the footer copyright content."
+msgstr ""
+
+#: functions.php:351
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:355
+msgctxt "Muli font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:477
+msgid "/"
+msgstr ""
+
+#: functions.php:480
+msgid "Home"
+msgstr ""
+
+#: functions.php:481 includes/redux-sections/blog.php:5
+msgid "Blog"
+msgstr ""
+
+#: functions.php:488
+msgctxt "portfolio archive in breadcrumb"
+msgid "Portfolio"
+msgstr ""
+
+#: functions.php:489
+msgctxt "product archive in breadcrumb"
+msgid "Products"
+msgstr ""
+
+#: functions.php:490
+msgctxt "Team archive in breadcrumb"
+msgid "Team"
+msgstr ""
+
+#: functions.php:670 functions.php:674 functions.php:678 functions.php:685 
+#: functions.php:689 functions.php:694
+msgid " Archives"
+msgstr ""
+
+#: functions.php:705
+msgid " Author: "
+msgstr ""
+
+#: functions.php:710
+msgid "Page"
+msgstr ""
+
+#: functions.php:715
+msgid "Search results for: "
+msgstr ""
+
+#: functions.php:720
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:745
+msgid "Our Portfolio"
+msgstr ""
+
+#: functions.php:782
+msgid "Search Blog"
+msgstr ""
+
+#: functions.php:785
+msgid "Page not found"
+msgstr ""
+
+#: functions.php:961
+msgctxt "Previous post link"
+msgid "Previous post"
+msgstr ""
+
+#: functions.php:967
+msgctxt "Next post link"
+msgid "Next post"
+msgstr ""
+
+#: functions.php:1006
+msgctxt "Member previous link"
+msgid "Previous member"
+msgstr ""
+
+#: functions.php:1012
+msgctxt "Member next link"
+msgid "Next member"
+msgstr ""
+
+#: functions.php:1052
+msgid "Your comment here..."
+msgstr ""
+
+#: functions.php:1094
+msgctxt "postpass form"
+msgid "To view this post, enter the password below."
+msgstr ""
+
+#: functions.php:1096
+msgctxt "postpass form"
+msgid "Password"
+msgstr ""
+
+#: functions.php:1097
+msgid "Authenticate"
+msgstr ""
+
+#: functions.php:1111
+#, php-format
+msgctxt "protected prepend"
+msgid "%s"
+msgstr ""
+
+#: functions.php:1339
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: functions.php:1353
+msgid "Redux Framework"
+msgstr ""
+
+#: functions.php:1366
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:1381
+msgid "CMB2"
+msgstr ""
+
+#: functions.php:1396
+msgid "Monolit Add-ons"
+msgstr ""
+
+#: functions.php:1412
+msgid "Loco Translate"
+msgstr ""
+
+#: functions.php:1427
+msgid "Envato Market"
+msgstr ""
+
+#: functions.php:1442
+msgid "One Click Demo Import"
+msgstr ""
+
+#: functions.php:1455
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: content-gallery.php:6 content-pagefullwidth.php:14 content-page.php:22 
+#: content.php:6 content-audio.php:5 content-video.php:5 content-search.php:6 
+#: content-quote.php:6 single.php:120 content-parallax.php:95
+msgid "Edit"
+msgstr ""
+
+#: content-gallery.php:18 content.php:18 content-audio.php:17 
+#: content-video.php:17 content-search.php:18 content-quote.php:18 
+#: single.php:133 content-parallax.php:50
+msgid "0 comment"
+msgstr ""
+
+#: content-gallery.php:18 content.php:18 content-audio.php:17 
+#: content-video.php:17 content-search.php:18 content-quote.php:18 
+#: single.php:133 content-parallax.php:50
+msgid "1 comment"
+msgstr ""
+
+#: content-gallery.php:18 content.php:18 content-audio.php:17 
+#: content-video.php:17 content-search.php:18 content-quote.php:18 
+#: single.php:133 content-parallax.php:50
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: content-gallery.php:63 content-pagefullwidth.php:18 content-page.php:26 
+#: content.php:41 content-audio.php:47 content-video.php:47 
+#: content-search.php:41 content-quote.php:48 single.php:189 
+#: content-parallax.php:99
+msgid "Pages:"
+msgstr ""
+
+#: content-gallery.php:77 content.php:55 content-audio.php:61 
+#: content-video.php:61 content-search.php:55 content-quote.php:62
+msgid "<span>read more </span> <i class=\"fa fa-long-arrow-right\"></i>"
+msgstr ""
+
+#: member-list.php:42
+msgid "<span>More info</span><i class=\"fa fa-eye\"></i>"
+msgstr ""
+
+#: header-shop.php:142 header-navfullwidth.php:136 header.php:142
+msgid "<span>Share</span><i class=\"fa fa-chain-broken\"></i> "
+msgstr ""
+
+#: 404.php:13
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid "Back to home page"
+msgstr ""
+
+#. Name of the template
+msgid "Page Fullwidth"
+msgstr ""
+
+#: archive-portfolio-vertical.php:102 portfolio-vertical-fullscreen.php:158 
+#: portfolio-vertical.php:164 portfolio-vertical-flexbox.php:158 
+#: portfolio-horizontal_boxed.php:177 
+#: archive-portfolio-horizontal_boxed.php:111 
+#: archive-portfolio-vertical_fullscreen.php:100 
+#: archive-portfolio-horizontal.php:103 portfolio-horizontal.php:163
+msgid "All"
+msgstr ""
+
+#: content-none.php:6
+msgid "Nothing Found Here!"
+msgstr ""
+
+#: content-none.php:11
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:15
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:20
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: comments.php:11
+#, php-format
+msgctxt "comments_title"
+msgid "Comment <span>( %1$s )</span>"
+msgid_plural "Comments <span>( %1$s )</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:22
+msgid "Reply"
+msgstr ""
+
+#: comments.php:43
+msgid "<i class=\"fa fa-long-arrow-left\"></i>"
+msgstr ""
+
+#: comments.php:44
+msgid "<li><span>/</span></li>"
+msgstr ""
+
+#: comments.php:45
+msgid "<i class=\"fa fa-long-arrow-right\"></i>"
+msgstr ""
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:67
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:70 includes/redux-sections/folio.php:134
+msgid "Name"
+msgstr ""
+
+#: comments.php:70
+msgid "Name "
+msgstr ""
+
+#: comments.php:71
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:71
+msgid "Email "
+msgstr ""
+
+#: comments.php:79
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:80
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:81
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:82
+msgid "Your email is safe with us."
+msgstr ""
+
+#: content-page.php:6
+msgctxt "Show page title"
+msgid "yes"
+msgstr ""
+
+#. Name of the template
+msgid "Portfolio Parallax"
+msgstr ""
+
+#. Name of the template
+msgid "Portfolio Vertical Fullscreen"
+msgstr ""
+
+#: portfolio-vertical-fullscreen.php:164 portfolio-vertical-flexbox.php:164 
+#: portfolio-horizontal_boxed.php:183 
+#: archive-portfolio-horizontal_boxed.php:117 
+#: archive-portfolio-vertical_fullscreen.php:106 
+#: archive-portfolio-horizontal.php:109 portfolio-horizontal.php:169
+msgid "Filter"
+msgstr ""
+
+#: portfolio-parallax-list.php:69
+msgid "<span>View Project</span><i class=\"fa fa-long-arrow-right\"></i>"
+msgstr ""
+
+#. Name of the template
+msgid "Portfolio Vertical"
+msgstr ""
+
+#: search.php:33 search.php:66 search.php:107
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#. Name of the template
+msgid "Home Landing Page"
+msgstr ""
+
+#. Name of the template
+msgid "Page Right Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "Home One Page"
+msgstr ""
+
+#. Name of the template
+msgid "Portfolio Vertical Flexbox"
+msgstr ""
+
+#. Name of the template
+msgid "Page Left Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "Portfolio Horizontal Boxed"
+msgstr ""
+
+#: single.php:206
+msgid "Share post:"
+msgstr ""
+
+#: single.php:220
+msgid "Posts by "
+msgstr ""
+
+#. Name of the template
+msgid "Page No Sidebar"
+msgstr ""
+
+#: content-parallax.php:113
+msgid "<span>Read more </span> <i class=\"fa fa-long-arrow-right\"></i>"
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#: author.php:81
+msgid "Follow on Twitter"
+msgstr ""
+
+#: author.php:84
+msgid "Like on Facebook"
+msgstr ""
+
+#: author.php:87
+msgid "Circle on Google Plus"
+msgstr ""
+
+#: author.php:90
+msgid "Be Friend on Linkedin"
+msgstr ""
+
+#: searchform.php:7
+msgctxt "placeholder"
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:7
+msgctxt "label"
+msgid ""
+msgstr ""
+
+#. Name of the template
+msgid "Portfolio Horizontal"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgid "Search products&hellip;"
+msgstr ""
+
+#: includes/one-click-import-data.php:8
+msgid "Full Demo Content (widgets included)"
+msgstr ""
+
+#: includes/one-click-import-data.php:11
+msgid ""
+"After you import this demo, you will have to setup the front-page from "
+"Settings -> Reading screen and menu from Appearance -> Menus screen."
+msgstr ""
+
+#: includes/one-click-import-data.php:17
+msgid "Posts"
+msgstr ""
+
+#: includes/one-click-import-data.php:20
+msgid "This demo data will be downloaded into Posts menu"
+msgstr ""
+
+#: includes/one-click-import-data.php:24
+msgid "Pages"
+msgstr ""
+
+#: includes/one-click-import-data.php:27
+msgid "This demo data will be downloaded into Pages menu"
+msgstr ""
+
+#: includes/one-click-import-data.php:33
+msgid "Media Files"
+msgstr ""
+
+#: includes/one-click-import-data.php:36
+msgid "This demo data will be downloaded into Media menu"
+msgstr ""
+
+#: includes/one-click-import-data.php:41
+msgid "Contact Forms"
+msgstr ""
+
+#: includes/one-click-import-data.php:44
+msgid "This demo will be downloaded into Contact menu"
+msgstr ""
+
+#: includes/one-click-import-data.php:48
+msgid "Portfolios"
+msgstr ""
+
+#: includes/one-click-import-data.php:51
+msgid "This demo data will be downloaded into Monolit Portfolios menu"
+msgstr ""
+
+#: includes/one-click-import-data.php:56 includes/redux-sections/member.php:5
+msgid "Members"
+msgstr ""
+
+#: includes/one-click-import-data.php:59
+msgid "This demo data will be downloaded into Monolit Members menu"
+msgstr ""
+
+#: includes/one-click-import-data.php:63
+msgid "Services"
+msgstr ""
+
+#: includes/one-click-import-data.php:66
+msgid "This demo data will be downloaded into Monolit Services menu"
+msgstr ""
+
+#: includes/one-click-import-data.php:70
+msgid "Timelines"
+msgstr ""
+
+#: includes/one-click-import-data.php:73
+msgid "This demo data will be downloaded into Monolit Timelines menu"
+msgstr ""
+
+#: includes/one-click-import-data.php:77
+msgid "Testimonials"
+msgstr ""
+
+#: includes/one-click-import-data.php:80
+msgid "This demo data will be downloaded into Monolit Testimonials menu"
+msgstr ""
+
+#: includes/woo-init.php:14
+msgctxt "woo breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: includes/woo-init.php:39
+msgctxt "Previous product link"
+msgid "Previous product"
+msgstr ""
+
+#: includes/woo-init.php:45
+msgctxt "Next product link"
+msgid "Next product"
+msgstr ""
+
+#: includes/redux-configs.php:37 includes/redux-configs.php:38
+msgid "Monolit Options"
+msgstr ""
+
+#: includes/redux-configs.php:148 includes/redux-configs.php:150
+msgid ""
+"<p><strong>Monolit - Creative  Responsive  Architecture WordPress "
+"Theme</strong> is perfect if you like a clean and modern design. This theme "
+"is ideal for designers, photographers, and those who need an easy, "
+"attractive and effective way to share their work with clients.</p>"
+msgstr ""
+
+#: includes/redux-configs.php:154
+msgid ""
+"Thanks all of you who stay with us, your co-operation is our inspiration."
+msgstr ""
+
+#: includes/redux-configs.php:328
+msgid "Section via hook"
+msgstr ""
+
+#: includes/redux-configs.php:329
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: includes/template-functions.php:224
+msgid "F j, Y g:i a"
+msgstr ""
+
+#: includes/template-functions.php:233
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/back-compat.php:37 includes/back-compat.php:49 
+#: includes/back-compat.php:64
+#, php-format
+msgid ""
+"Monolit requires at least WordPress version 5.0. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:341
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:347
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:365
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:371
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:393 
+#: lib/class-tgm-plugin-activation.php:912 
+#: lib/class-tgm-plugin-activation.php:2626 
+#: lib/class-tgm-plugin-activation.php:3689
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:394 
+#: lib/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:395 
+#: lib/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1019 
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1206 
+#: lib/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3607
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3612
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3616
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3618
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3618 
+#: lib/class-tgm-plugin-activation.php:3626
+msgid "Show Details"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3618 
+#: lib/class-tgm-plugin-activation.php:3626
+msgid "Hide Details"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3619
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3621
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3624
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3626
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3627
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3629
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:39
+msgid "&larr;"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:40
+msgid "&rarr;"
+msgstr ""
+
+#: includes/redux-sections/404.php:5
+msgid "404 Page"
+msgstr ""
+
+#: includes/redux-sections/404.php:14 includes/redux-sections/member.php:14 
+#: includes/redux-sections/shop.php:15 includes/redux-sections/blog.php:14 
+#: includes/redux-sections/folio.php:15
+msgid "Fullwidth Navigation Menu"
+msgstr ""
+
+#: includes/redux-sections/404.php:22
+msgid "404 Page Background Image"
+msgstr ""
+
+#: includes/redux-sections/404.php:25
+msgid "This image will be used for background image in 404 page."
+msgstr ""
+
+#: includes/redux-sections/404.php:32
+msgid "404 Page Message"
+msgstr ""
+
+#: includes/redux-sections/404.php:41
+msgid "Back Home Link"
+msgstr ""
+
+#: includes/redux-sections/404.php:48 includes/redux-sections/folio.php:73
+msgid "Show Content Footer"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:5
+msgid "Blog Single"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:13
+msgid "Show Single Post Header"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:20
+msgid "Show Featured Image on single post page"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:27
+msgid "Show Author Block on single post page"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:34
+msgid "Show Tags meta on single post page"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:41 
+#: includes/redux-sections/socials.php:14
+msgid "Share Names"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:42
+msgid ""
+"Enter your social share names separated by a comma. List bellow are "
+"available name: facebook,twitter,linkedin,in1,tumblr,digg,googleplus,reddit,"
+"pinterest,posterous,email,vk"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:50 
+#: includes/redux-sections/blog-single.php:58 
+#: includes/redux-sections/shop-single.php:35 
+#: includes/redux-sections/shop-single.php:43 
+#: includes/redux-sections/shop.php:13 includes/redux-sections/shop.php:23 
+#: includes/redux-sections/shop.php:39 includes/redux-sections/general.php:126
+msgid "Yes"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:51 
+#: includes/redux-sections/blog-single.php:59 
+#: includes/redux-sections/shop-single.php:36 
+#: includes/redux-sections/shop-single.php:44 
+#: includes/redux-sections/shop.php:14 includes/redux-sections/shop.php:24 
+#: includes/redux-sections/shop.php:40 includes/redux-sections/general.php:127
+msgid "No"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:52
+msgid "Show posts navigation"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:60
+msgid "Next/Prev posts should be in same category"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:68
+msgid "Blog List Link"
+msgstr ""
+
+#: includes/redux-sections/blog-single.php:69
+msgid "Link for blog list icon on single blog post page."
+msgstr ""
+
+#: includes/redux-sections/colors.php:5
+msgid "Colors"
+msgstr ""
+
+#: includes/redux-sections/colors.php:14
+msgid "Use Custom Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:15
+msgid "Set this to <b>On</b> if you want to use color variants bellow."
+msgstr ""
+
+#: includes/redux-sections/colors.php:22
+msgid "Main BG - Loading Background Color "
+msgstr ""
+
+#: includes/redux-sections/colors.php:25
+msgid "Main Page Background Color (default: #1b1b1b - 1)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:36
+msgid "Top Naivgation BG Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:39
+msgid "Top Navigation Background Color (default: #000 - 1)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:51
+msgid "Submenu Background Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:54
+msgid "Submenu Background Color (default: #000 - 0.91)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:65
+msgid "Submenu Background Color - Mobile View"
+msgstr ""
+
+#: includes/redux-sections/colors.php:68
+msgid "Submenu Background Color on mobile view (default: #000 - 1)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:79
+msgid "Socials Share Background Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:82
+msgid ""
+"Background Color for socials share button on the top navigation bar (default:"
+" #000 - 1)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:93
+msgid "Content Footer Background Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:96
+msgid "Footer Background Color (default: #1b1b1b - 1)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:107
+msgid "Left Bar Background Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:110
+msgid "Left Bar Background Color (default: #000 - 1)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:121
+msgid "White Section Background Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:124
+msgid "White Section Background Color (default: #fff)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:132
+msgid "Dark Section Background Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:135
+msgid "Dark Section Background Color (default: #1b1b1b)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:143
+msgid "Overlay Background Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:146
+msgid ""
+"Overlay Background Color, which cover parallax background image (default: "
+"#000 - 1)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:157
+msgid "Portfolio Overlay Background Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:160
+msgid ""
+"Portfolio Overlay Background Color, which cover parallax background image "
+"(default: #000 - 1)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:173
+msgid "Footer Text Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:176
+msgid "Footer Text Color (default: #fff)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:184
+msgid "Footer Link Text Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:187
+msgid "Footer Link Text Color (default: #fff)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:195
+msgid "Footer Text Title Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:198
+msgid "Footer Text Title Color (default: #fff)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:206
+msgid "Footer Copyright Text Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:209
+msgid "Footer Copyright Text Color (default: #fff)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:218
+msgid "Left Socials Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:221
+msgid "Left Socials Color (default: #fff)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:229
+msgid "Main Menu Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:241
+msgid "Current Menu Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:244
+msgid "Current Menu Color (default: #fff)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:254
+msgid "Sub Menu Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:267
+msgid "Sub Menu Current Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:270
+msgid "Sub Menu Current Color (default: #fff)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:279
+msgid "Top Social Share Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:282
+msgid "Top Social Share Color (default: #fff)."
+msgstr ""
+
+#: includes/redux-sections/colors.php:290
+msgid "Dark Background Text Color"
+msgstr ""
+
+#: includes/redux-sections/colors.php:293
+msgid ""
+"Set text color for Dark background section, with \"dark-bg\" extraclass "
+"(default: #fff)."
+msgstr ""
+
+#: includes/redux-sections/folio-parallax.php:5
+msgid "Parallax Layout"
+msgstr ""
+
+#: includes/redux-sections/folio-parallax.php:15
+msgid "First Content Side for Parallax layout"
+msgstr ""
+
+#: includes/redux-sections/folio-parallax.php:24 
+#: includes/redux-sections/member.php:80
+msgid "Parallax Dimension"
+msgstr ""
+
+#: includes/redux-sections/folio-parallax.php:25
+#, php-format
+msgid ""
+"Pixel number. Which we are telling the browser is to move Portfolio Content "
+"down every time we scroll down 100% of the viewport height and move "
+"Portfolio Content up every time we scroll up 100% of the viewport height. Ex:"
+" 200  or -200 for reverse direction."
+msgstr ""
+
+#: includes/redux-sections/folio-parallax.php:31
+msgid "Show Post Excerpt on Parallax layout"
+msgstr ""
+
+#: includes/redux-sections/folio-parallax.php:38
+msgid "Show Post Meta on Parallax layout"
+msgstr ""
+
+#: includes/redux-sections/custom-code.php:5
+msgid "Custom Code"
+msgstr ""
+
+#: includes/redux-sections/custom-code.php:8
+msgid ""
+"<p>You can use Firebug - Firefox add-on to adjust your wordpress site's "
+"style. For more detail please read this tutorial: <a href=\"https://www."
+"tipsandtricks-hq.com/how-to-use-firebug-to-modify-your-wordpress-sites-css-"
+"video-tutorial-4037\" target=\"_blank\">How to Use Firebug to Modify Your "
+"WordPress Site's CSS (Video Tutorial)</a> by <strong>Tips and Tricks "
+"HQ</strong>.</p>"
+msgstr ""
+
+#: includes/redux-sections/custom-code.php:15
+msgid "CSS Code - Large Desktop View"
+msgstr ""
+
+#: includes/redux-sections/custom-code.php:16 
+#: includes/redux-sections/custom-code.php:28 
+#: includes/redux-sections/custom-code.php:40 
+#: includes/redux-sections/custom-code.php:52
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: includes/redux-sections/custom-code.php:27
+msgid "CSS Code - Medium Desktop View"
+msgstr ""
+
+#: includes/redux-sections/custom-code.php:39
+msgid "CSS Code - Tablet View"
+msgstr ""
+
+#: includes/redux-sections/custom-code.php:51
+msgid "CSS Code - Mobile View"
+msgstr ""
+
+#: includes/redux-sections/shop-single.php:5
+msgid "Product Page"
+msgstr ""
+
+#: includes/redux-sections/shop-single.php:37
+msgid "Show Next/Prev products navigation"
+msgstr ""
+
+#: includes/redux-sections/shop-single.php:45
+msgid "Next/Prev products should be in same category"
+msgstr ""
+
+#: includes/redux-sections/shop-single.php:51
+msgid "Shop List Link"
+msgstr ""
+
+#: includes/redux-sections/shop-single.php:52
+msgid "Link for shop list icon on single product page."
+msgstr ""
+
+#: includes/redux-sections/shop-single.php:70
+msgid "Related Products Count"
+msgstr ""
+
+#: includes/redux-sections/shop-single.php:71
+msgid "Set number of related products to show ( -1 for all)."
+msgstr ""
+
+#: includes/redux-sections/shop-single.php:102
+msgid "Up-Sells Count"
+msgstr ""
+
+#: includes/redux-sections/shop-single.php:103
+msgid "Set number of up-sells products to show ( -1 for all)."
+msgstr ""
+
+#: includes/redux-sections/protected.php:5
+msgid "Password Protected Page"
+msgstr ""
+
+#: includes/redux-sections/protected.php:15
+msgid "Page Background Image"
+msgstr ""
+
+#: includes/redux-sections/protected.php:18
+msgid ""
+"This image will be used for background image in password protected page."
+msgstr ""
+
+#: includes/redux-sections/protected.php:25
+msgid "Show post title"
+msgstr ""
+
+#: includes/redux-sections/protected.php:32
+msgid "Page Message"
+msgstr ""
+
+#: includes/redux-sections/member.php:21
+msgid "Show Header"
+msgstr ""
+
+#: includes/redux-sections/member.php:28
+msgid "Member Heading Text"
+msgstr ""
+
+#: includes/redux-sections/member.php:36
+msgid "Member Intro Text"
+msgstr ""
+
+#: includes/redux-sections/member.php:44
+msgid "Header Background Video"
+msgstr ""
+
+#: includes/redux-sections/member.php:46 includes/redux-sections/blog.php:55 
+#: includes/redux-sections/folio.php:48
+msgid ""
+"Please enter your Youtube video ID (ex: oDpSPNIozt8 ) here to use header "
+"background video feature or leave empty to use header background image "
+"selected bellow."
+msgstr ""
+
+#: includes/redux-sections/member.php:53
+msgid "Header Background Image"
+msgstr ""
+
+#: includes/redux-sections/member.php:63 includes/redux-sections/shop.php:41 
+#: includes/redux-sections/blog.php:72 includes/redux-sections/folio.php:65
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: includes/redux-sections/member.php:71
+msgid "First Member Content Side"
+msgstr ""
+
+#: includes/redux-sections/member.php:81
+#, php-format
+msgid ""
+"Pixel number. Which we are telling the browser is to move Member Photo down "
+"every time we scroll down 100% of the viewport height and move Member Photo "
+"up every time we scroll up 100% of the viewport height. Ex: 150  or -150 for "
+"reverse direction."
+msgstr ""
+
+#: includes/redux-sections/member.php:89
+msgid "Show Read more"
+msgstr ""
+
+#: includes/redux-sections/member.php:99
+msgid "Member Sidebar Layout"
+msgstr ""
+
+#: includes/redux-sections/member.php:100 includes/redux-sections/blog.php:81
+msgid ""
+"Select main content and sidebar layout. The option 4 is default layout with "
+"right parallax image for Monolit theme."
+msgstr ""
+
+#: includes/redux-sections/member.php:122 includes/redux-sections/shop.php:89 
+#: includes/redux-sections/folio.php:121
+msgid "Posts per page"
+msgstr ""
+
+#: includes/redux-sections/member.php:123 includes/redux-sections/shop.php:90 
+#: includes/redux-sections/folio.php:122
+msgid "Number of post to show per page, -1 to show all posts."
+msgstr ""
+
+#: includes/redux-sections/member.php:129
+msgid "Order Members By"
+msgstr ""
+
+#: includes/redux-sections/member.php:133 
+#: includes/redux-sections/folio.php:136 includes/redux-sections/folio.php:159 
+#: includes/redux-sections/folio.php:208
+msgid "None"
+msgstr ""
+
+#: includes/redux-sections/member.php:134 includes/redux-sections/folio.php:160
+msgid "Post ID"
+msgstr ""
+
+#: includes/redux-sections/member.php:135 includes/redux-sections/folio.php:161
+msgid "Post Author"
+msgstr ""
+
+#: includes/redux-sections/member.php:136 includes/redux-sections/folio.php:162
+msgid "Post title"
+msgstr ""
+
+#: includes/redux-sections/member.php:137 includes/redux-sections/folio.php:163
+msgid "Post name (post slug)"
+msgstr ""
+
+#: includes/redux-sections/member.php:138 includes/redux-sections/folio.php:164
+msgid "Created Date"
+msgstr ""
+
+#: includes/redux-sections/member.php:139 includes/redux-sections/folio.php:165
+msgid "Last modified date"
+msgstr ""
+
+#: includes/redux-sections/member.php:140 includes/redux-sections/folio.php:166
+msgid "Post Parent id"
+msgstr ""
+
+#: includes/redux-sections/member.php:141 includes/redux-sections/folio.php:167
+msgid "Random"
+msgstr ""
+
+#: includes/redux-sections/member.php:148
+msgid "Order Members"
+msgstr ""
+
+#: includes/redux-sections/member.php:152 
+#: includes/redux-sections/folio.php:148 includes/redux-sections/folio.php:178
+msgid "Descending"
+msgstr ""
+
+#: includes/redux-sections/member.php:153 
+#: includes/redux-sections/folio.php:147 includes/redux-sections/folio.php:179
+msgid "Ascending"
+msgstr ""
+
+#: includes/redux-sections/member.php:162
+msgid "Member List Link"
+msgstr ""
+
+#: includes/redux-sections/member.php:163
+msgid ""
+"Link for member list icon on single member page. Default: your_domain.com/?"
+"post_type=monolit_member or your_domain.com/monolit_member/"
+msgstr ""
+
+#: includes/redux-sections/shop.php:5
+msgid "Shop"
+msgstr ""
+
+#: includes/redux-sections/shop.php:25
+msgid "Show Shop Header"
+msgstr ""
+
+#: includes/redux-sections/shop.php:32
+msgid "Shop Header Image"
+msgstr ""
+
+#: includes/redux-sections/shop.php:73
+msgid "Sidebar Width"
+msgstr ""
+
+#: includes/redux-sections/shop.php:74
+msgid "Based on Bootstrap 12 columns."
+msgstr ""
+
+#: includes/redux-sections/shop.php:76
+msgid "2 Columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:77
+msgid "3 Columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:78
+msgid "4 Columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:79
+msgid "5 Columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:80
+msgid "6 Columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:107
+msgid "Desktop Columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:108
+msgid "Number of products per row on desktop view."
+msgstr ""
+
+#: includes/redux-sections/shop.php:110 includes/redux-sections/shop.php:128
+msgid "One column"
+msgstr ""
+
+#: includes/redux-sections/shop.php:111 includes/redux-sections/shop.php:129
+msgid "Two columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:112 includes/redux-sections/shop.php:130
+msgid "Three columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:113 includes/redux-sections/shop.php:131
+msgid "Four columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:114 includes/redux-sections/shop.php:132
+msgid "Five columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:115 includes/redux-sections/shop.php:133
+msgid "Six columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:125
+msgid "Horizontal Tablet Columns"
+msgstr ""
+
+#: includes/redux-sections/shop.php:126
+msgid "Number of products per row on tablet horizontal view."
+msgstr ""
+
+#: includes/redux-sections/socials.php:15
+msgid ""
+"Enter your social share names separated by a comma. List bellow are "
+"available name: facebook,twitter,linkedin,in1,tumblr,digg,googleplus,reddit,"
+"pinterest,stumbleupon,email,vk"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:5
+msgid "Media"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:8
+msgid ""
+"<p>These settings affect the display and dimensions of images in your pages."
+"</p>\n"
+"        <p><em> Enter 9999 as Width value and uncheck Hard Crop to make your "
+"thumbnail dynamic width.</em></p>\n"
+"        <p><em> Enter 9999 as Height value and uncheck Hard Crop to make "
+"your thumbnail dynamic height.</em></p>\n"
+"        <p><em> Enter 9999 as Width and Height values to use full size image."
+"</em></p>\n"
+"<p>After changing these settings you may need to <a href=\"http://wordpress."
+"org/extend/plugins/regenerate-thumbnails/\" target=\"_blank\">regenerate "
+"your thumbnails</a>.</p>"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:20
+msgid "Enable Custom Image Sizes"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:28
+msgid "Fullscreen Thumbnail Size"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:29
+msgid "For Home Slider, Slideshow, Image pages and fullscreen slider elements."
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:42
+msgid "Portfolio Horizontal Thumbnail"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:56
+msgid "Portfolio Horizontal Two Vertical Columns Thumbnail"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:70
+msgid "Portfolio Horizontal Three Vertical Columns Thumbnail"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:84
+msgid "Portfolio Vertical Size One"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:85 
+#: includes/redux-sections/thumbnails.php:98 
+#: includes/redux-sections/thumbnails.php:112 
+#: includes/redux-sections/thumbnails.php:169
+msgid ""
+"You should enter 9999 as Height value and uncheck Hard Crop to make your "
+"thumbnail dynamic height."
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:97
+msgid "Portfolio Vertical Size Two"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:111
+msgid "Portfolio Vertical Size Three"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:125
+msgid "Portfolio Parallax Size"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:139
+msgid "Team Member Parallax Thumbnail"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:153
+msgid "Service Grid Thumbnail"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:168
+msgid "Service Background Thumbnail"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:183
+msgid "Blog Post Thumbnail"
+msgstr ""
+
+#: includes/redux-sections/thumbnails.php:184
+msgid "Allow your to choose width, height, and crop thumbnail."
+msgstr ""
+
+#: includes/redux-sections/fonts.php:5
+msgid "Fonts"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:16
+msgid "Body Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:17
+msgid ""
+"<p>Specify the body font properties.</br> Default </br>font-family: Roboto "
+"</br>font-size: 12px </br>font-weight: 400 </br>color: #000000</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:25
+msgid "Hyperlink Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:26
+msgid ""
+"<p>Hyperlink font properties.</br> Default </br>font-family: Roboto </br>"
+"font-size: 12px </br>font-weight: 400 </br>color: #000000</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:35
+msgid "Hyperlink Hover Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:36
+msgid ""
+"<p>Hyperlink hover font properties.</br> Default </br>font-family: Roboto "
+"</br>font-size: 12px </br>font-weight: 400 </br>color: #000000</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:45
+msgid "Paragraph Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:46
+msgid ""
+"<p>Specify paragraph font properties. Default </br>font-family: Roboto </br>"
+"font-size: 15px </br>line-height: 24px</br>font-weight: 400</br>color: "
+"#000000</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:55
+msgid "Title-Header Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:56
+msgid ""
+"<p>Specify the title and heading font properties.</br> Default </br>font-"
+"family: Roboto </br>color: #000000</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:66
+msgid "Monolit Theme Bolder Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:67
+msgid ""
+"<p>This is bolder font used in the theme. Default </br>font-family: Muli</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:81
+msgid "Monolit Theme Italic Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:82
+msgid ""
+"<p>Theme italic font. Default </br>font-family: Georgia, \"Times New Roman\","
+" Times, serif </br>font-style: italic</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:90
+msgid "Monolit Theme Navigation Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:91
+msgid ""
+"<p>Theme navigation font. Default </br>font-family: Muli </br>font-size: "
+"10px </br>line-height: 10px</br>font-weight: 600</br>color: #ffffff</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:99
+msgid "Monolit Theme Navigation Hover Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:100
+msgid ""
+"<p>Theme navigation hover font. Default </br>font-family: Muli </br>font-"
+"size: 10px </br>line-height: 10px</br>font-weight: 600</br>color: #e5e5e5</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:108
+msgid "Monolit Left Title Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:109
+msgid ""
+"<p>Theme left title font. Default </br>font-family: Muli </br>font-size: "
+"10px </br>line-height: 16px</br>font-weight: 600</br>color: #ffffff</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:118
+msgid "Monolit Header Title Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:119
+msgid ""
+"<p>Theme header title font. Default </br>font-family: Muli </br>font-size: "
+"38px </br>font-weight: 600 </br>color: #ffffff</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:129
+msgid "Monolit Header SubTitle Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:130
+msgid ""
+"<p>Theme header sub-title font. Default </br>font-family: Roboto </br>font-"
+"size: 18px </br>font-weight: 200 </br>color: #ffffff</p>"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:140
+msgid "Page Section Title Font"
+msgstr ""
+
+#: includes/redux-sections/fonts.php:141
+msgid ""
+"<p>Theme page section title font. Default </br>font-family: Roboto </br>font-"
+"size: 40px </br>line-height: 64px </br>font-weight: 100</p>"
+msgstr ""
+
+#: includes/redux-sections/blog.php:21
+msgid "Blog Style"
+msgstr ""
+
+#: includes/redux-sections/blog.php:30
+msgid "Show Blog Header"
+msgstr ""
+
+#: includes/redux-sections/blog.php:37
+msgid "Blog Heading Text"
+msgstr ""
+
+#: includes/redux-sections/blog.php:45
+msgid "Blog Intro Text"
+msgstr ""
+
+#: includes/redux-sections/blog.php:53
+msgid "Blog Header Video"
+msgstr ""
+
+#: includes/redux-sections/blog.php:62
+msgid "Blog Header Image"
+msgstr ""
+
+#: includes/redux-sections/blog.php:65
+msgid "Upload your blog header image"
+msgstr ""
+
+#: includes/redux-sections/blog.php:80
+msgid "Blog Sidebar Layout"
+msgstr ""
+
+#: includes/redux-sections/blog.php:103
+msgid "Show Author meta"
+msgstr ""
+
+#: includes/redux-sections/blog.php:111
+msgid "Show Date meta"
+msgstr ""
+
+#: includes/redux-sections/blog.php:118
+msgid "Show Categories meta"
+msgstr ""
+
+#: includes/redux-sections/blog.php:125
+msgid "Show Tags meta"
+msgstr ""
+
+#: includes/redux-sections/blog.php:133
+msgid "Show Comments meta"
+msgstr ""
+
+#: includes/redux-sections/footer.php:5
+msgid "Footer"
+msgstr ""
+
+#: includes/redux-sections/footer.php:14
+msgid "Show Left Bar"
+msgstr ""
+
+#: includes/redux-sections/footer.php:15
+msgid "Show left Blank bar on your site"
+msgstr ""
+
+#: includes/redux-sections/footer.php:23
+msgid "Show Left Title"
+msgstr ""
+
+#: includes/redux-sections/footer.php:24
+msgid "Show title on the left of your page."
+msgstr ""
+
+#: includes/redux-sections/footer.php:33
+msgid "Left Bar Width"
+msgstr ""
+
+#: includes/redux-sections/footer.php:34
+msgid ""
+"Default: 80px. If you add more info to the footer section you must increase "
+"the value here."
+msgstr ""
+
+#: includes/redux-sections/footer.php:42
+msgid "Left Bar Icons"
+msgstr ""
+
+#: includes/redux-sections/footer.php:46
+msgid ""
+"You should replace href attribute value with your social links, and get "
+"social icons from:"
+msgstr ""
+
+#: includes/redux-sections/footer.php:61
+msgid "Footer Content"
+msgstr ""
+
+#: includes/redux-sections/footer.php:125
+msgid "Show Constellation"
+msgstr ""
+
+#: includes/redux-sections/footer.php:133
+msgid "Constellation Line Color"
+msgstr ""
+
+#: includes/redux-sections/general.php:6
+msgid "General"
+msgstr ""
+
+#: includes/redux-sections/general.php:16
+msgid "Custom Favicon"
+msgstr ""
+
+#: includes/redux-sections/general.php:19
+msgid "Upload your Favicon."
+msgstr ""
+
+#: includes/redux-sections/general.php:27
+msgid "Your Logo"
+msgstr ""
+
+#: includes/redux-sections/general.php:30
+msgid "Upload your logo."
+msgstr ""
+
+#: includes/redux-sections/general.php:37
+msgid "Logo Size Width"
+msgstr ""
+
+#: includes/redux-sections/general.php:45
+msgid "Logo Size Height"
+msgstr ""
+
+#: includes/redux-sections/general.php:53
+msgid "Logo Text"
+msgstr ""
+
+#: includes/redux-sections/general.php:61
+msgid "Slogan (Sub Logo Text)"
+msgstr ""
+
+#: includes/redux-sections/general.php:71
+msgid "Multi Menu Locations"
+msgstr ""
+
+#: includes/redux-sections/general.php:74
+msgid ""
+"These values will display on <strong>Appearance</strong> &gt; <strong>"
+"Menus</strong> and <strong>Scroll Navigation Menu</strong> on page, post or "
+"portfolio setting."
+msgstr ""
+
+#: includes/redux-sections/general.php:81
+msgid "Show animation loadder"
+msgstr ""
+
+#: includes/redux-sections/general.php:82
+msgid "Show animation loader"
+msgstr ""
+
+#: includes/redux-sections/general.php:90
+msgid "Show Submenu on Mobile"
+msgstr ""
+
+#: includes/redux-sections/general.php:91
+msgid ""
+"Set this option to On to display submenu items on mobile devices instead of "
+"hovering its parent."
+msgstr ""
+
+#: includes/redux-sections/general.php:99
+msgid "Disable Shuffle Text Script"
+msgstr ""
+
+#: includes/redux-sections/general.php:100
+msgid ""
+"When disabled shuffling text effect on the left title and scroll top text is "
+"off."
+msgstr ""
+
+#: includes/redux-sections/general.php:108
+msgid "Disable Parallax Effect"
+msgstr ""
+
+#: includes/redux-sections/general.php:118
+msgid "Google Map API Key"
+msgstr ""
+
+#: includes/redux-sections/general.php:128
+msgid "Enable Image Click"
+msgstr ""
+
+#: includes/redux-sections/folio.php:5
+msgid "Portfolio"
+msgstr ""
+
+#: includes/redux-sections/folio.php:23
+msgid "Show Portfolio Header"
+msgstr ""
+
+#: includes/redux-sections/folio.php:30
+msgid "Portfolio Heading Text"
+msgstr ""
+
+#: includes/redux-sections/folio.php:38
+msgid "Portfolio Intro Text"
+msgstr ""
+
+#: includes/redux-sections/folio.php:46
+msgid "Portfolio Header Video"
+msgstr ""
+
+#: includes/redux-sections/folio.php:55
+msgid "Portfolio Header Image"
+msgstr ""
+
+#: includes/redux-sections/folio.php:81
+msgid "Portfolio Layout"
+msgstr ""
+
+#: includes/redux-sections/folio.php:98
+msgid "Portfolio Columns"
+msgstr ""
+
+#: includes/redux-sections/folio.php:100
+msgid "Vertical columns for Horizontal layout"
+msgstr ""
+
+#: includes/redux-sections/folio.php:107
+msgid "Show Filter"
+msgstr ""
+
+#: includes/redux-sections/folio.php:114
+msgid "Show Counter"
+msgstr ""
+
+#: includes/redux-sections/folio.php:128
+msgid "Order Filter By"
+msgstr ""
+
+#: includes/redux-sections/folio.php:132
+msgid "ID"
+msgstr ""
+
+#: includes/redux-sections/folio.php:133
+msgid "Count"
+msgstr ""
+
+#: includes/redux-sections/folio.php:135
+msgid "Slug"
+msgstr ""
+
+#: includes/redux-sections/folio.php:143
+msgid "Order Filter"
+msgstr ""
+
+#: includes/redux-sections/folio.php:155
+msgid "Order Portfolio By"
+msgstr ""
+
+#: includes/redux-sections/folio.php:174
+msgid "Order Portfolio"
+msgstr ""
+
+#: includes/redux-sections/folio.php:187
+msgid "Show Info"
+msgstr ""
+
+#: includes/redux-sections/folio.php:191
+msgid "Show On Hover"
+msgstr ""
+
+#: includes/redux-sections/folio.php:192
+msgid "Show"
+msgstr ""
+
+#: includes/redux-sections/folio.php:193
+msgid "Hide"
+msgstr ""
+
+#: includes/redux-sections/folio.php:202
+msgid "Spacing"
+msgstr ""
+
+#: includes/redux-sections/folio.php:203
+msgid "The space between portfolio grid items."
+msgstr ""
+
+#: includes/redux-sections/folio.php:206
+msgid "Small"
+msgstr ""
+
+#: includes/redux-sections/folio.php:207
+msgid "Big"
+msgstr ""
+
+#: includes/redux-sections/folio.php:215
+msgid "Enable Image Gallery on Portfolio Grid"
+msgstr ""
+
+#: includes/redux-sections/folio.php:222
+msgid "Disbale Image Overlay Effect"
+msgstr ""
+
+#: includes/redux_add_fields/field_thumbnail_size.php:76
+msgid "Width "
+msgstr ""
+
+#: includes/redux_add_fields/field_thumbnail_size.php:77
+msgid "Width"
+msgstr ""
+
+#: includes/redux_add_fields/field_thumbnail_size.php:92
+msgid "Height "
+msgstr ""
+
+#: includes/redux_add_fields/field_thumbnail_size.php:93
+msgid "Height"
+msgstr ""
+
+#: includes/redux_add_fields/field_thumbnail_size.php:110
+msgid "Hard Crop "
+msgstr ""
+
+#. Name of the theme
+msgid "Monolit"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Monolit – Creative Responsive Architecture WordPress Theme is perfect if you "
+"like a clean and modern design. This theme is ideal for architects, "
+"furniture designers, photographers, and those who need an easy, attractive "
+"and effective way to share their work with clients."
+msgstr ""
+
+#. URI of the theme
+msgid "https://demowp.cththemes.net/monolit/"
+msgstr ""
+
+#. Author of the theme
+msgid "CTHthemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themeforest.net/user/cththemes"
+msgstr ""
