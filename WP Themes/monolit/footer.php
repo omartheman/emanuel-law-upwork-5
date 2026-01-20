@@ -17,12 +17,16 @@
                             <?php } ?>
                             <?php echo wp_kses_post( monolit_global_var('footer_content') );?>
 
+                            <!-- Footer advanced custom fields -->
                             <div class="row">
                                 <div class="col-md-4">
                                     <!-- Footer logo --> 
                                     <div class="footer-item footer-logo">
                                         <a href="https://icolaw.wpengine.com/" class="ajax"><img src="https://icolaw.wpengine.com/wp-content/uploads/2023/02/logo-fancy-v3.png" alt="footer logo" style="height:50px"></a>
-                                        <p>Packaged SEC compliance and transactional solutions in connection with blockchain technology companies launching compliant Security Token and Platform Token integrations and financings. </p>
+
+                                        <!-- Footer field from "Footer" custom post type, post ID shown in the_field function -->
+                                        <p><?php the_field('catchphrase', 594); ?></p>
+
                                     </div>
                                     <!-- Footer logo end --> 
                                 </div>
@@ -41,7 +45,7 @@
                                     <div class="footer-item">
                                         <h4 class="text-link">Email</h4>
                                         <ul>
-                                            <li><a href="mailto:eorlando@eolegal.com">eorlando@eolegal.com</a></li>
+                                            <li><a href="mailto:<?php the_field('email', 594); ?>"><?php the_field('email', 594); ?></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -51,7 +55,7 @@
                                     <div class="footer-item">
                                         <h4 class="text-link">HQ</h4>
                                         <ul>
-                                            <li><span>280 South Beverly Drive<br />Suite 505<br />Beverly Hills, CA  90212</span></li>
+                                            <li><span><?php the_field('address', 594); ?><br /><?php the_field('suite', 594); ?><br /><?php the_field('city_state_zip', 594); ?></span></li>
                                         </ul>
                                     </div>
                                 </div>
