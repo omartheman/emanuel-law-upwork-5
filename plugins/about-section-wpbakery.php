@@ -16,10 +16,13 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
     ), $atts ) );
 
     // Output the HTML for your module
-    $output = '<div class="custom-module">CUSTOM MODULE';
-    $output .= '<h3>' . esc_html($title) . '</h3>';
-    $output .= '<p>' . esc_html($description) . '</p>';
-    $output .= '</div>';
+    $output = '
+    <div class="custom-module">
+        <h3>' . esc_html($title) . '</h3>
+        <p>' . esc_html($description) . '</p>
+    </div>
+    
+    ';
 
     return $output;
 }
@@ -61,3 +64,14 @@ endif;
 }
 
 add_action( 'vc_before_init', 'wpb_dev_example_map_custom_module' );
+
+function about_plugin_enqueue_styles() {
+    // Define the URL to your CSS file using plugins_url()
+    wp_enqueue_style(
+        'ico-about-section-styles',                           // Unique handle for your stylesheet
+        plugins_url( '/css/plugin-style.css', __FILE__ ), // Full URL of the stylesheet
+        array(),                                       // Optional array of dependencies (e.g., array('jquery-ui-css'))
+        '1.0.0',                                       // Version number (for cache busting)
+        'all'                                          // Media type (e.g., 'all', 'screen', 'print')
+    );
+}
