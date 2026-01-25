@@ -65,6 +65,15 @@ function wpb_dev_example_map_custom_module() {
                 array(
                     'type' => 'textfield',
                     'holder' => 'h3',
+                    'heading' => __( 'Name', 'text-domain' ),
+                    'param_name' => 'name',
+                    'value' => __( 'Default Title', 'text-domain' ),
+                    'description' => __( 'Enter the module title.', 'text-domain' ),
+                ),
+
+                array(
+                    'type' => 'textfield',
+                    'holder' => 'h2',
                     'heading' => __( 'Title', 'text-domain' ),
                     'param_name' => 'title',
                     'value' => __( 'Default Title', 'text-domain' ),
@@ -106,7 +115,7 @@ function about_plugin_enqueue_styles() {
         'ico-about-section-styles',
         plugins_url( '/css/style.css', __FILE__ ),
         array(),
-        '1.0.7',
+        '1.0.8',
         'all'
     );
 }
