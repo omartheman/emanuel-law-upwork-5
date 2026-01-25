@@ -21,3 +21,9 @@
 .profile-textarea p {
   font-size: 15px; 
 }
+
+.profile-name {
+  font-size: 50px; 
+  font-weight: 300; 
+  padding-bottom: 10px; 
+}

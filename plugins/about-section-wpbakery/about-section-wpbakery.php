@@ -13,12 +13,14 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
 
     $atts = shortcode_atts( array(
         'title'    => 'About',
+        'name'     => 'Emanuel Orlando',
         'el_class' => '',
         'css'      => '',
     ), $atts );
 
     $title    = $atts['title'];
     $el_class = $atts['el_class'];
+    $name    = $atts['name'];
 
     // WPBakery Design Options CSS
     $css_class = vc_shortcode_custom_css_class( $atts['css'], ' ' );
@@ -35,8 +37,11 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
                  alt="Profile photo of Emanuel Orlando." 
                  width="320" height="400">
         </div>
-        <div class="profile-textarea">
-            ' . wpautop( wp_kses_post( $content ) ) . '
+        <div class="profile-textarea">';
+
+    $output .= '<div class="profile-name">' . esc_html( $name ) . '</div>';
+
+    $output .= wpautop( wp_kses_post( $content ) ) . '
         </div>
     </div>
     ';
@@ -101,7 +106,7 @@ function about_plugin_enqueue_styles() {
         'ico-about-section-styles',
         plugins_url( '/css/style.css', __FILE__ ),
         array(),
-        '1.0.5',
+        '1.0.7',
         'all'
     );
 }
