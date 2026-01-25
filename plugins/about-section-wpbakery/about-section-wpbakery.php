@@ -25,7 +25,7 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
 
     $output = '
     <div class="custom-module' . esc_attr( $css_class ) . ' ' . esc_attr( $el_class ) . '">
-        <h3>' . esc_html( $title ) . '</h3>
+        <h3 class="profile-title">' . esc_html( $title ) . '</h3>
     </div>
 
     <div class="profile-container' . esc_attr( $css_class ) . ' ' . esc_attr( $el_class ) . '">
@@ -35,14 +35,7 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
                  alt="Profile photo of Emanuel Orlando." 
                  width="320" height="400">
         </div>
-        <div>
-            <p><nbspan>Owner</span><span> - Chief Legal Official</span></p>
-            <p>
-                <span>LinkedIn Profile:</span>
-                <span>
-                    <a href="https://www.linkedin.com/in/emanuelorlando/">https://www.linkedin.com/in/emanuelorlando/</a>
-                </span>
-            </p>
+        <div class="profile-textarea">
             ' . wpautop( wp_kses_post( $content ) ) . '
         </div>
     </div>
@@ -108,7 +101,7 @@ function about_plugin_enqueue_styles() {
         'ico-about-section-styles',
         plugins_url( '/css/style.css', __FILE__ ),
         array(),
-        '1.0.0',
+        '1.0.5',
         'all'
     );
 }

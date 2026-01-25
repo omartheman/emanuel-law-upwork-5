@@ -2,6 +2,22 @@
   display: flex;
 }
 
+@media(max-width: 767px){
+  .profile-container {
+    flex-direction: column; 
+  }
+}
+
 .portrait-container {
   padding-right: 60px; 
+}
+
+.profile-title {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.profile-textarea p {
+  font-size: 15px; 
 }
