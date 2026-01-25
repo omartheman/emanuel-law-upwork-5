@@ -11,7 +11,7 @@
 if ( ! function_exists( 'wpb_dev_example_custom_shortcode_output' ) ) :
 function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
     extract( shortcode_atts( array(
-        'title' => 'Default Title',
+        'title' => 'About',
         'description' => 'Default description.',
     ), $atts ) );
 
@@ -19,9 +19,27 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
     $output = '
     <div class="custom-module">
         <h3>' . esc_html($title) . '</h3>
-        <p>' . esc_html($description) . '</p>
     </div>
 
+  <div class="profile-container">
+    <div class="portrait-container">
+        <img loading="lazy" decoding="async" src="https://icolaw.net/wp-content/uploads/2026/01/Group-1.png" alt="Profile photo of Emanuel Orlando." width="320" height="400">
+    </div>
+    <div>
+      <p><span>Owner</span><span>- Chief Legal Official</span></p>
+      <p>
+        <span>LinkedIn Profile:</span>
+        <span>
+          <a href="https://www.linkedin.com/in/emanuelorlando/
+">https://www.linkedin.com/in/emanuelorlando/</a>
+        </span>
+      </p>
+
+    <p>' . esc_html($description) . '</p>
+      <p>Emanuel Orlando is an experienced corporate finance lawyer.  With over 15 years of practice with national law firms, he has extensive experience in transactional law.</p>
+      <p>Emanuel received his Juris Doctor from Loyola Law School of Los Angeles and his Bachelor’s Degree from Princeton University.</p>
+    </div>
+  </div> <!-- Profile container end -->
     ';
 
     return $output;
@@ -76,4 +94,4 @@ function about_plugin_enqueue_styles() {
     );
 }
 
-add_action( 'wp_enqueue_scripts', 'your_plugin_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'about_plugin_enqueue_styles' );
