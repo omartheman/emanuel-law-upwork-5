@@ -30,8 +30,7 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
       <p>
         <span>LinkedIn Profile:</span>
         <span>
-          <a href="https://www.linkedin.com/in/emanuelorlando/
-">https://www.linkedin.com/in/emanuelorlando/</a>
+          <a href="https://www.linkedin.com/in/emanuelorlando/">https://www.linkedin.com/in/emanuelorlando/</a>
         </span>
       </p>
 
