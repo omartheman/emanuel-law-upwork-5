@@ -34,11 +34,7 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
                     <a href="https://www.linkedin.com/in/emanuelorlando/">https://www.linkedin.com/in/emanuelorlando/</a>
                 </span>
             </p>
-
             ' . wpautop( wp_kses_post( $content ) ) . '
-
-            <p>Emanuel Orlando is an experienced corporate finance lawyer. With over 15 years of practice with national law firms, he has extensive experience in transactional law.</p>
-            <p>Emanuel received his Juris Doctor from Loyola Law School of Los Angeles and his Bachelor’s Degree from Princeton University.</p>
         </div>
     </div>
     ';
@@ -54,7 +50,7 @@ function wpb_dev_example_map_custom_module() {
 
     if ( function_exists( 'vc_map' ) ) :
         vc_map( array(
-            'name' => __( 'My Custom Module', 'text-domain' ),
+            'name' => __( '"About" Module', 'text-domain' ),
             'base' => 'wpb_dev_custom_module',
             'category' => __( 'My Elements', 'text-domain' ),
             'params' => array(
