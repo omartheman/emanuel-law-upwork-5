@@ -206,7 +206,6 @@
         max-width: 80rem;
     }
     #meet-team-977 .cs-item {
-        width: 25%;
     }
     #meet-team-977 .cs-item:hover .cs-info:before {
         background-color: var(--primary);
