@@ -21,7 +21,7 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
         <h3>' . esc_html($title) . '</h3>
         <p>' . esc_html($description) . '</p>
     </div>
-    
+
     ';
 
     return $output;
@@ -69,9 +69,11 @@ function about_plugin_enqueue_styles() {
     // Define the URL to your CSS file using plugins_url()
     wp_enqueue_style(
         'ico-about-section-styles',                           // Unique handle for your stylesheet
-        plugins_url( '/css/plugin-style.css', __FILE__ ), // Full URL of the stylesheet
+        plugins_url( '/css/style.css', __FILE__ ), // Full URL of the stylesheet
         array(),                                       // Optional array of dependencies (e.g., array('jquery-ui-css'))
         '1.0.0',                                       // Version number (for cache busting)
         'all'                                          // Media type (e.g., 'all', 'screen', 'print')
     );
 }
+
+add_action( 'wp_enqueue_scripts', 'your_plugin_enqueue_styles' );
