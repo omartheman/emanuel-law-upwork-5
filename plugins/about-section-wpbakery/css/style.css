@@ -28,3 +28,13 @@
   font-weight: 300; 
   padding-bottom: 10px; 
 }
+
+.profile-textarea {
+  margin-top: 33px;
+}
+
+@media(max-width: 767px){
+  .profile-textarea {
+    margin-top: 15px;
+  }
+}

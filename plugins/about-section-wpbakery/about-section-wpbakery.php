@@ -1,6 +1,6 @@
 <?php 
 /**
- * Plugin Name: About Page Section
+ * Plugin Name: About Page Section WPBakery
  * Plugin URI: 
  * Description: A WPBakery module for an "About" section
  * Version: 1.1
@@ -115,7 +115,7 @@ function about_plugin_enqueue_styles() {
         'ico-about-section-styles',
         plugins_url( '/css/style.css', __FILE__ ),
         array(),
-        '1.0.8',
+        '1.0.9',
         'all'
     );
 }
