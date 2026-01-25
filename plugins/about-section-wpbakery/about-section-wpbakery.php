@@ -13,13 +13,10 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
 
     $atts = shortcode_atts( array(
         'title' => 'About',
-        'description' => '',
     ), $atts );
 
     $title = $atts['title'];
-    $description = $atts['description'];
 
-    // Output the HTML for your module
     $output = '
     <div class="custom-module">
         <h3>' . esc_html( $title ) . '</h3>
@@ -38,7 +35,7 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
                 </span>
             </p>
 
-            ' . wpautop( wp_kses_post( $description ) ) . '
+            ' . wpautop( wp_kses_post( $content ) ) . '
 
             <p>Emanuel Orlando is an experienced corporate finance lawyer. With over 15 years of practice with national law firms, he has extensive experience in transactional law.</p>
             <p>Emanuel received his Juris Doctor from Loyola Law School of Los Angeles and his Bachelor’s Degree from Princeton University.</p>
@@ -72,8 +69,7 @@ function wpb_dev_example_map_custom_module() {
                 array(
                     'type' => 'textarea_html',
                     'heading' => __( 'Description', 'text-domain' ),
-                    'param_name' => 'description',
-                    'value' => '',
+                    'param_name' => 'content',
                     'description' => __( 'Enter the module description. Line breaks will create paragraphs.', 'text-domain' ),
                 ),
             ),
