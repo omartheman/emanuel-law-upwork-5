@@ -25,3 +25,35 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
 }
 endif;
 add_shortcode( 'wpb_dev_custom_module', 'wpb_dev_example_custom_shortcode_output' );
+
+// Map the shortcode to WPBakery
+if ( function_exists( 'vc_map' ) ) :
+function wpb_dev_example_map_custom_module() {
+    vc_map( array(
+        'name' => __( 'My Custom Module', 'text-domain' ), // The name of your element
+        'base' => 'wpb_dev_custom_module', // The base name for your shortcode (must match add_shortcode tag)
+        'category' => __( 'My Elements', 'text-domain' ), // The category in the "Add Element" window
+        'params' => array( // The editable parameters
+            array(
+                'type' => 'textfield', // Type of input field (textfield, textarea, dropdown, colorpicker, etc.)
+                'holder' => 'h3', // HTML element to wrap the value in the editor (optional)
+                'class' => '',
+                'heading' => __( 'Title', 'text-domain' ),
+                'param_name' => 'title', // Shortcode attribute name
+                'value' => __( 'Default Title', 'text-domain' ),
+                'description' => __( 'Enter the module title.', 'text-domain' ),
+            ),
+            array(
+                'type' => 'textarea',
+                'holder' => 'p',
+                'class' => '',
+                'heading' => __( 'Description', 'text-domain' ),
+                'param_name' => 'description',
+                'value' => __( 'Default description.', 'text-domain' ),
+                'description' => __( 'Enter the module description.', 'text-domain' ),
+            ),
+        ),
+    ) );
+}
+endif;
+add_action( 'vc_before_init', 'wpb_dev_example_map_custom_module' );
