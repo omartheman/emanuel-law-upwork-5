@@ -86,6 +86,8 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
     .about-h-inner {
         max-width: 1200px; 
         margin: auto; 
+        z-index: 1;
+        position: relative;
     }
 
     .about-h-link {
