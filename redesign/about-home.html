@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+
+    .three-column-section {
+      display: flex;
+      gap: 20px;
+    }
+    
+    .column {
+      flex: 1 1 300px;
+      padding: 20px;
+    }
+
+    @media(max-width: 991px){
+      .three-column-section {
+        display: flex;
+        gap: 20px;
+        flex-direction: column; 
+      }
+      
+      .column {
+        flex: initial;
+        padding: 20px;
+      }
+    }
+
+    .about-h {
+      background-color: #47414F;
+    }
+
+    .about-h-content {
+      display: flex; 
+    }
+
+    .about-h-heading{
+      color: white; 
+    }
+
+    .about-h-inner {
+      max-width: 1200px; 
+      margin: auto; 
+    }
+
+    .about-h-link {
+      font-family: 'Montserrat', sans-serif; 
+      color: rgb(159, 150, 171); 
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    .about-h-content {
+      color: #ccbd99;
+    }
+
+    .attorney-profile {
+      max-width: 500px;
+      margin: 0 auto;
+      position: relative; 
+      height: 400px; 
+    }
+
+    .attorney-profile-inner {
+      top: 30px; 
+      position: absolute; 
+      box-shadow: 0 5px 20px 0px #3a3a4a;
+    }
+    
+    .profile-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      background-color: #000;
+    }
+    
+    .profile-info {
+      background-color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    
+    .profile-name {
+      font-family: 'Georgia', serif;
+      font-size: 24px;
+      font-weight: normal;
+      margin: 0 0 10px 0;
+      color: #333;
+    }
+    
+    .profile-title {
+      font-family: 'Arial', sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #666;
+      margin: 0;
+    }
+
+    .line-ico {
+      display: inline-block;
+      border-top: 1px solid #fff;
+      width: 60px;
+      margin-top: 34px;
+    }
+  </style>
+  <section class="about-h">
+
+    <div class="about-h-inner">
+      <div class="three-column-section about-h">
+        <div class="column">
+          <span class="line-ico"></span>
+          <h2 class="about-h-heading">Meet Our Chief Attorney</h2>
+        </div>
+        
+        <div class="column">
+          <p class="about-h-content">Emanuel Orlando is a corporate transactional attorney with over 15 years of experience at national and boutique firms. His practice focuses on regulatory compliance, corporate structuring, fund formation, and intellectual property for investment and technology clients. He holds a J.D. from Loyola Law School and a B.A. in Philosophy from Princeton University.</p>
+        </div>
+        
+        <div class="column">
+          <a class="about-h-link" href="">Read more about our firm →</a>
+        </div>
+      </div> <!-- .about-h-inner end -->
+
+      <div class="attorney-profile">
+        <div class="attorney-profile-inner">
+          <img src="https://wordpress-1583123-6179224.cloudwaysapps.com/wp-content/uploads/2026/02/image17-480x480.jpg.jpg" alt="Emanuel Orlando" class="profile-image">
+          
+          <div class="profile-info">
+            <h2 class="profile-name">Emanuel Orlando</h2>
+            <p class="profile-title">Managing Partner • Beverly Hills</p>
+          </div>
+        </div>
+      </div> <!-- .attorney-profile end -->
+    </div>
+    
+  </section> <!-- .about-h end -->
+</body>
+</html>
