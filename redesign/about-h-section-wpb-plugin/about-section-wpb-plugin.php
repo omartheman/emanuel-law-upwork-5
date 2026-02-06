@@ -44,112 +44,6 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
         </div>
     </div>
 
-
-
-    <style>
-
-    .three-column-section {
-        display: flex;
-        gap: 20px;
-    }
-    
-    .column {
-        flex: 1 1 300px;
-        padding: 20px;
-    }
-
-    @media(max-width: 991px){
-        .three-column-section {
-        display: flex;
-        gap: 20px;
-        flex-direction: column; 
-        }
-        
-        .column {
-        flex: initial;
-        padding: 20px;
-        }
-    }
-
-    .about-h {
-        background-color: #47414F;
-    }
-
-    .about-h-content {
-        display: flex; 
-    }
-
-    .about-h-heading{
-        color: white; 
-    }
-
-    .about-h-inner {
-        max-width: 1200px; 
-        margin: auto; 
-        z-index: 1;
-        position: relative;
-    }
-
-    .about-h-link {
-        font-family: 'Montserrat', sans-serif; 
-        color: rgb(159, 150, 171); 
-        text-transform: uppercase;
-        text-decoration: none;
-    }
-    .about-h-content {
-        color: #ccbd99;
-    }
-
-    .attorney-profile {
-        max-width: 500px;
-        margin: 0 auto;
-        position: relative; 
-        height: 400px; 
-    }
-
-    .attorney-profile-inner {
-        top: 30px; 
-        position: absolute; 
-        box-shadow: 0 5px 20px 0px #3a3a4a;
-    }
-    
-    .profile-image {
-        width: 100%;
-        height: auto;
-        display: block;
-        background-color: #000;
-    }
-    
-    .profile-info {
-        background-color: #fff;
-        padding: 30px 20px;
-        text-align: center;
-    }
-    
-    .profile-name {
-        font-family: 'Georgia', serif;
-        font-size: 24px;
-        font-weight: normal;
-        margin: 0 0 10px 0;
-        color: #333;
-    }
-    
-    .profile-title {
-        font-family: 'Arial', sans-serif;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-        color: #666;
-        margin: 0;
-    }
-
-    .line-ico {
-        display: inline-block;
-        border-top: 1px solid #fff;
-        width: 60px;
-        margin-top: 34px;
-    }
-    </style>
     <section class="about-h">
 
     <div class="about-h-inner">
@@ -251,7 +145,7 @@ function about_plugin_enqueue_styles() {
         'ico-about-section-styles',
         plugins_url( '/css/style.css', __FILE__ ),
         array(),
-        '1.0.9',
+        '1.0.10',
         'all'
     );
 }

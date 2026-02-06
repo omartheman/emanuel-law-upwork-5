@@ -1,40 +1,102 @@
-.profile-container {
-  display: flex;
+
+.three-column-section {
+    display: flex;
+    gap: 20px;
 }
 
-@media(max-width: 767px){
-  .profile-container {
+.column {
+    flex: 1 1 300px;
+    padding: 20px;
+}
+
+@media(max-width: 991px){
+    .three-column-section {
+    display: flex;
+    gap: 20px;
     flex-direction: column; 
-  }
+    }
+    
+    .column {
+    flex: initial;
+    padding: 20px;
+    }
 }
 
-.portrait-container {
-  padding-right: 60px; 
-  margin-bottom: 20px; 
+.about-h {
+    background-color: #47414F;
 }
 
-.profile-title {
-  font-size: 40px;
-  text-transform: uppercase;
-  font-weight: 100;
+.about-h-content {
+    display: flex; 
 }
 
-.profile-textarea p {
-  font-size: 15px; 
+.about-h-heading{
+    color: white; 
+}
+
+.about-h-inner {
+    max-width: 1200px; 
+    margin: auto; 
+    z-index: 1;
+    position: relative;
+}
+
+.about-h-link {
+    font-family: 'Montserrat', sans-serif; 
+    color: rgb(159, 150, 171); 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.about-h-content {
+    color: #ccbd99;
+}
+
+.attorney-profile {
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative; 
+    height: 400px; 
+}
+
+.attorney-profile-inner {
+    top: 30px; 
+    position: absolute; 
+    box-shadow: 0 5px 20px 0px #3a3a4a;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #000;
+}
+
+.profile-info {
+    background-color: #fff;
+    padding: 30px 20px;
+    text-align: center;
 }
 
 .profile-name {
-  font-size: 50px; 
-  font-weight: 300; 
-  padding-bottom: 10px; 
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    color: #333;
 }
 
-.profile-textarea {
-  margin-top: 33px;
+.profile-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #666;
+    margin: 0;
 }
 
-@media(max-width: 767px){
-  .profile-textarea {
-    margin-top: 15px;
-  }
+.line-ico {
+    display: inline-block;
+    border-top: 1px solid #fff;
+    width: 60px;
+    margin-top: 34px;
 }
