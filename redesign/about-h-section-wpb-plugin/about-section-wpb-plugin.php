@@ -12,10 +12,13 @@ if ( ! function_exists( 'wpb_dev_example_custom_shortcode_output' ) ) :
 function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
 
     $atts = shortcode_atts( array(
-        'title'    => 'About',
+        'title'    => 'Meet Our Chief Attorney',
         'name'     => 'Emanuel Orlando',
         'el_class' => '',
         'css'      => '',
+        'content'  => 'Emanuel Orlando is a corporate transactional attorney with over 15 years of experience at national and boutique firms. His practice focuses on regulatory compliance, corporate structuring, fund formation, and intellectual property for investment and technology clients. He holds a J.D. from Loyola Law School and a B.A. in Philosophy from Princeton University.',
+        'link_text'=> 'Read more about our firm →', 
+        'link_href'=> '/about',
     ), $atts );
 
     $title    = $atts['title'];
@@ -27,52 +30,35 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
 
     ob_start(); ?>
 
-    <div class="custom-module<?php echo esc_attr( $css_class ); ?> <?php echo esc_attr( $el_class ); ?>">
-        <h3 class="profile-title"><?php echo esc_html( $title ); ?></h3>
-    </div>
-
-    <div class="profile-container<?php echo esc_attr( $css_class ); ?> <?php echo esc_attr( $el_class ); ?>">
-        <div class="portrait-container">
-            <img loading="lazy" decoding="async" 
-                src="<?php echo esc_url( 'https://icolaw.net/wp-content/uploads/2026/01/Group-1.png' ); ?>" 
-                alt="Profile photo of Emanuel Orlando." 
-                width="320" height="400">
-        </div>
-        <div class="profile-textarea">
-            <div class="profile-name"><?php echo esc_html( $name ); ?></div>
-            <?php echo wpautop( wp_kses_post( $content ) ); ?>
-        </div>
-    </div>
-
     <section class="about-h">
 
-    <div class="about-h-inner">
-        <div class="three-column-section about-h">
-        <div class="column">
-            <span class="line-ico"></span>
-            <h2 class="about-h-heading">Meet Our Chief Attorney</h2>
-        </div>
-        
-        <div class="column">
-            <p class="about-h-content">Emanuel Orlando is a corporate transactional attorney with over 15 years of experience at national and boutique firms. His practice focuses on regulatory compliance, corporate structuring, fund formation, and intellectual property for investment and technology clients. He holds a J.D. from Loyola Law School and a B.A. in Philosophy from Princeton University.</p>
-        </div>
-        
-        <div class="column">
-            <a class="about-h-link" href="">Read more about our firm →</a>
-        </div>
-        </div> <!-- .about-h-inner end -->
-
-        <div class="attorney-profile">
-        <div class="attorney-profile-inner">
-            <img src="https://wordpress-1583123-6179224.cloudwaysapps.com/wp-content/uploads/2026/02/image17-480x480.jpg.jpg" alt="Emanuel Orlando" class="profile-image">
-            
-            <div class="profile-info">
-            <h2 class="profile-name">Emanuel Orlando</h2>
-            <p class="profile-title">Managing Partner • Beverly Hills</p>
+        <div class="about-h-inner">
+            <div class="three-column-section about-h">
+            <div class="column">
+                <span class="line-ico"></span>
+                <h2 class="about-h-heading"><?php echo esc_html( $title ); ?></h2>
             </div>
+            
+            <div class="column">
+                <p class="about-h-content"><?php echo wpautop( wp_kses_post( $content ) ); ?></p>
+            </div>
+            
+            <div class="column">
+                <a class="about-h-link" href="<?php echo esc_html( $link_href ); ?>"><?php echo esc_html( $link_text ); ?></a>
+            </div>
+            </div> <!-- .about-h-inner end -->
+
+            <div class="attorney-profile">
+            <div class="attorney-profile-inner">
+                <img src="https://wordpress-1583123-6179224.cloudwaysapps.com/wp-content/uploads/2026/02/image17-480x480.jpg.jpg" alt="Emanuel Orlando" class="profile-image">
+                
+                <div class="profile-info">
+                <h2 class="profile-name">Emanuel Orlando</h2>
+                <p class="profile-title">Managing Partner • Beverly Hills</p>
+                </div>
+            </div>
+            </div> <!-- .attorney-profile end -->
         </div>
-        </div> <!-- .attorney-profile end -->
-    </div>
     
     </section> <!-- .about-h end -->
 
@@ -98,7 +84,15 @@ function wpb_dev_example_map_custom_module() {
                     'heading' => __( 'Name', 'text-domain' ),
                     'param_name' => 'name',
                     'value' => __( 'Default Title', 'text-domain' ),
-                    'description' => __( 'Enter the module title.', 'text-domain' ),
+                    'description' => __( 'Enter the name of the person.', 'text-domain' ),
+                ),
+
+                array(
+                    'type' => 'textfield',
+                    'heading' => __( 'Link Text', 'text-domain' ),
+                    'param_name' => 'link_text',
+                    'value' => ! empty( $link_text ) ? $link_text : __( 'Link text', 'text-domain' ),
+                    'description' => __( 'Enter the module link text.', 'text-domain' ),
                 ),
 
                 array(
@@ -106,7 +100,7 @@ function wpb_dev_example_map_custom_module() {
                     'holder' => 'h2',
                     'heading' => __( 'Title', 'text-domain' ),
                     'param_name' => 'title',
-                    'value' => __( 'Default Title', 'text-domain' ),
+                    'value' => ! empty( $title ) ? $title : __( 'Default Title', 'text-domain' ),
                     'description' => __( 'Enter the module title.', 'text-domain' ),
                 ),
 
@@ -145,7 +139,7 @@ function about_plugin_enqueue_styles() {
         'ico-about-section-styles',
         plugins_url( '/css/style.css', __FILE__ ),
         array(),
-        '1.0.10',
+        '1.0.11',
         'all'
     );
 }
