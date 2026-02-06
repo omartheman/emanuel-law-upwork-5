@@ -25,28 +25,26 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
     // WPBakery Design Options CSS
     $css_class = vc_shortcode_custom_css_class( $atts['css'], ' ' );
 
-    $output = '
-    <div class="custom-module' . esc_attr( $css_class ) . ' ' . esc_attr( $el_class ) . '">
-        <h3 class="profile-title">' . esc_html( $title ) . '</h3>
+    ob_start(); ?>
+
+    <div class="custom-module<?php echo esc_attr( $css_class ); ?> <?php echo esc_attr( $el_class ); ?>">
+        <h3 class="profile-title"><?php echo esc_html( $title ); ?></h3>
     </div>
 
-    <div class="profile-container' . esc_attr( $css_class ) . ' ' . esc_attr( $el_class ) . '">
+    <div class="profile-container<?php echo esc_attr( $css_class ); ?> <?php echo esc_attr( $el_class ); ?>">
         <div class="portrait-container">
             <img loading="lazy" decoding="async" 
-                 src="' . esc_url( "https://icolaw.net/wp-content/uploads/2026/01/Group-1.png" ) . '" 
-                 alt="Profile photo of Emanuel Orlando." 
-                 width="320" height="400">
+                src="<?php echo esc_url( 'https://icolaw.net/wp-content/uploads/2026/01/Group-1.png' ); ?>" 
+                alt="Profile photo of Emanuel Orlando." 
+                width="320" height="400">
         </div>
-        <div class="profile-textarea">';
-
-    $output .= '<div class="profile-name">' . esc_html( $name ) . '</div>';
-
-    $output .= wpautop( wp_kses_post( $content ) ) . '
+        <div class="profile-textarea">
+            <div class="profile-name"><?php echo esc_html( $name ); ?></div>
+            <?php echo wpautop( wp_kses_post( $content ) ); ?>
         </div>
     </div>
-    ';
 
-    return $output;
+    <?php return ob_get_clean();
 }
 endif;
 
