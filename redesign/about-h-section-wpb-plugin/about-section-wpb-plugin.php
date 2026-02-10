@@ -16,14 +16,15 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
         'name'     => 'Emanuel Orlando',
         'el_class' => '',
         'css'      => '',
-        'content'  => 'Emanuel Orlando is a corporate transactional attorney with over 15 years of experience at national and boutique firms. His practice focuses on regulatory compliance, corporate structuring, fund formation, and intellectual property for investment and technology clients. He holds a J.D. from Loyola Law School and a B.A. in Philosophy from Princeton University.',
         'link_text'=> 'Read more about our firm →', 
         'link_href'=> '/about',
     ), $atts );
 
-    $title    = $atts['title'];
-    $el_class = $atts['el_class'];
-    $name    = $atts['name'];
+    $title     = $atts['title'];
+    $el_class  = $atts['el_class'];
+    $name      = $atts['name'];
+    $link_text = $atts['link_text'];
+    $link_href = $atts['link_href'];
 
     // WPBakery Design Options CSS
     $css_class = vc_shortcode_custom_css_class( $atts['css'], ' ' );
@@ -34,26 +35,26 @@ function wpb_dev_example_custom_shortcode_output( $atts, $content = null ) {
 
         <div class="about-h-inner">
             <div class="three-column-section about-h">
-            <div class="column">
+            <div class="about-h-column">
                 <span class="line-ico"></span>
                 <h2 class="about-h-heading"><?php echo esc_html( $title ); ?></h2>
             </div>
             
-            <div class="column">
-                <p class="about-h-content"><?php echo wpautop( wp_kses_post( $content ) ); ?></p>
+            <div class="about-h-column">
+                <div class="about-h-content"><?php echo wpautop( wp_kses_post( $content ) ); ?></div>
             </div>
             
-            <div class="column">
-                <a class="about-h-link" href="<?php echo esc_html( $link_href ); ?>"><?php echo esc_html( $link_text ); ?></a>
+            <div class="about-h-column">
+                <a class="about-h-link" href="<?php echo esc_url( $link_href ); ?>"><?php echo esc_html( $link_text ); ?></a>
             </div>
-            </div> <!-- .about-h-inner end -->
+            </div> <!-- .three-column-section end -->
 
             <div class="attorney-profile">
             <div class="attorney-profile-inner">
                 <img src="https://wordpress-1583123-6179224.cloudwaysapps.com/wp-content/uploads/2026/02/image17-480x480.jpg.jpg" alt="Emanuel Orlando" class="profile-image">
                 
                 <div class="profile-info">
-                <h2 class="profile-name">Emanuel Orlando</h2>
+                <h2 class="profile-name"><?php echo esc_html( $name ); ?></h2>
                 <p class="profile-title">Managing Partner • Beverly Hills</p>
                 </div>
             </div>
@@ -80,35 +81,44 @@ function wpb_dev_example_map_custom_module() {
 
                 array(
                     'type' => 'textfield',
-                    'holder' => 'h3',
-                    'heading' => __( 'Name', 'text-domain' ),
-                    'param_name' => 'name',
-                    'value' => __( 'Default Title', 'text-domain' ),
-                    'description' => __( 'Enter the name of the person.', 'text-domain' ),
-                ),
-
-                array(
-                    'type' => 'textfield',
-                    'heading' => __( 'Link Text', 'text-domain' ),
-                    'param_name' => 'link_text',
-                    'value' => ! empty( $link_text ) ? $link_text : __( 'Link text', 'text-domain' ),
-                    'description' => __( 'Enter the module link text.', 'text-domain' ),
-                ),
-
-                array(
-                    'type' => 'textfield',
                     'holder' => 'h2',
                     'heading' => __( 'Title', 'text-domain' ),
                     'param_name' => 'title',
-                    'value' => ! empty( $title ) ? $title : __( 'Default Title', 'text-domain' ),
+                    'value' => __( 'Meet Our Chief Attorney', 'text-domain' ),
                     'description' => __( 'Enter the module title.', 'text-domain' ),
+                ),
+
+                array(
+                    'type' => 'textfield',
+                    'holder' => 'h3',
+                    'heading' => __( 'Name', 'text-domain' ),
+                    'param_name' => 'name',
+                    'value' => __( 'Emanuel Orlando', 'text-domain' ),
+                    'description' => __( 'Enter the name of the person.', 'text-domain' ),
                 ),
 
                 array(
                     'type' => 'textarea_html',
                     'heading' => __( 'Description', 'text-domain' ),
                     'param_name' => 'content',
+                    'value' => __( 'Emanuel Orlando is a corporate transactional attorney with over 15 years of experience at national and boutique firms.', 'text-domain' ),
                     'description' => __( 'Enter the module description. Line breaks will create paragraphs.', 'text-domain' ),
+                ),
+
+                array(
+                    'type' => 'textfield',
+                    'heading' => __( 'Link Text', 'text-domain' ),
+                    'param_name' => 'link_text',
+                    'value' => __( 'Read more about our firm →', 'text-domain' ),
+                    'description' => __( 'Enter the module link text.', 'text-domain' ),
+                ),
+
+                array(
+                    'type' => 'textfield',
+                    'heading' => __( 'Link URL', 'text-domain' ),
+                    'param_name' => 'link_href',
+                    'value' => '/about',
+                    'description' => __( 'Enter the link URL.', 'text-domain' ),
                 ),
 
                 // Extra class
